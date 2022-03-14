@@ -1,0 +1,25 @@
+.section-areaThree  {
+  grid-template-columns: repeat(2, 1fr); 
+}
+.section-areaThree__content {
+  padding: 200px 80px;
+  background-image: url('../../image/bg2.jpg');
+  background-size: cover;
+  background-position: left;
+}
+.section-area__title {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Oswald' ,sans-serif;
+  line-height: 40px;
+}
+
+.section-areaThree__description {
+  max-width: 27rem;
+}
+
+.section-areaThree__image-one {
+  background-image: url('../../image/f5.jpg');
+  background-size: cover;
+  background-position: center;
+}

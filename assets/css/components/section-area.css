@@ -1,0 +1,35 @@
+.section-area {
+  grid-template-columns: repeat(2, 1fr); 
+}
+.section-area__content {
+  margin: 0 auto;
+}
+.section-area__title {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Oswald' ,sans-serif;
+  line-height: 40px;
+}
+
+.section-area__description {
+  max-width: 28rem;
+}
+
+.section-area__phrase {
+  margin-bottom: 2rem;
+}
+
+.section-area__image-one {
+  height: 350px;
+  background-image: url('../../image/f2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.section-area__image-two {
+  grid-column: 2 / 3;
+  grid-row: 1 / 3;
+
+  background-image: url('../../image/f1.jpg');
+  background-size: cover;
+  background-position: center;
+}

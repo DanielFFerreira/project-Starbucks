@@ -1,0 +1,22 @@
+.section-areaFour {
+  grid-template-columns: 450px 1fr;
+  background: #e8e9ee;
+}
+.section-areaFour__content {
+  padding: 140px 80px;
+}
+.section-area__title {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Oswald' ,sans-serif;
+  line-height: 40px;
+}
+
+.section-areaFour__description {
+  max-width: 20rem;
+}
+
+.section-areaFour__image-one {
+  background-image: url('../../image/bg3.jpg');
+  background-position: left;
+}

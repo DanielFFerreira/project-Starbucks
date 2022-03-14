@@ -1,0 +1,18 @@
+.footer {
+  background: #333333;
+}
+
+.footer__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__logo img {
+  width: 74px;
+  height: 74px;
+}
+
+.footer__description {
+  color: #ffffff;
+}
